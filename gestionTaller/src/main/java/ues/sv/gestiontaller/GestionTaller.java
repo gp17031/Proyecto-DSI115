@@ -3,7 +3,7 @@
  */
 
 package ues.sv.gestiontaller;
-
+import ues.sv.gestiontaller.vista.login;
 /**
  *
  * @author Dell
@@ -11,6 +11,7 @@ package ues.sv.gestiontaller;
 public class GestionTaller {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        login pantalla = new login();
+        pantalla.setVisible(true);
     }
 }
